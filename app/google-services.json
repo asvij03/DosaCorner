@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "107984473948",
+    "project_id": "dosa-corner-165211"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107984473948:android:07f6a5030e98b742",
+        "android_client_info": {
+          "package_name": "com.hermitcrabs.dosacorner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107984473948-jth2pt1advt99u7gf2bges0n8j27u380.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "107984473948-upocbcjs54p7m1ha4gkv0nfaqgqish3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermitcrabs.dosacorner",
+            "certificate_hash": "0b6b9cb743d2c5a516a73d25ec0b32ceefa34fe6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkgeFQJz8ADScpBcffUmhmgmsixvZTZ28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

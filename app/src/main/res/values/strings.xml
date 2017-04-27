@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DosaCorner</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+
+    <string name="about_us1">Dosa corner is a traditional Indian restaurant running since 2015, located at Barkly street, West Footscray.</string>
+    <string name="about_us2">Two renowned Chefs who had the passion for food, joined hands with one of their friend to start a restaurant named Dosa Corner.
+        The vision they had was to bring the real taste of India to Australia and at the same time to deliver quality food to people.</string>
+
+    <string name="about_us3">    In Dosa Corner we serve delicious Indian cuisine made from the real spices of India which will make your taste bud go crazy for our food.
+        Feel the real taste and flavours of India here! When our crispy and delightful dosa’s are in front of you, nothing can stop you from eating it.
+        Chaat, dosa, biryani, indo-chinese rice and noodles, desserts – name anything and we show you the difference in taste and give you the memories that you can’t erase from your mind/tongue.
+        Our menu also offers Chinese specials such as Pizza dosa, Fish pakora, chilli prawns and lot more. Book your table, come and dine in with friends and family.
+        We promise you that we won’t let your expectations go down. Let your taste buds relish the food and satisfy your crave that has been there for Indian food.
+    </string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+
+    <string name="hear_from_you">We would like to hear from you. Contact us</string>
+
+    <string name="address_line1">587, Barkly Street</string>
+    <string name="address_line2">West Footscray, Vic - 3012</string>
+    <string name="social_media_contact">You can also connect with us through social media.</string>
+    <string name="title_activity_book_table">BookTableActivity</string>
+
+
+</resources>

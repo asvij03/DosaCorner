@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <EditText
+
+        android:id="@+id/signin_email_text"
+        android:layout_marginTop="92dp"
+        android:layout_width="328dp"
+        android:layout_height="36dp"
+        android:hint="Email"
+        android:textColorHint="#e7e7e7"
+        android:textStyle="italic"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/edit_text_style"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+
+        android:id="@+id/signin_pwd_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="328dp"
+        android:layout_height="36dp"
+        android:hint="Password"
+        android:textColorHint="#e7e7e7"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_below="@+id/signin_email_text"
+        android:layout_alignLeft="@+id/signin_email_text"
+        android:layout_alignStart="@+id/signin_email_text" />
+
+
+    <TextView
+        android:id="@+id/signin_button"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:background="#66FFFFFF"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/signin_forgot_pwd"
+        android:layout_alignLeft="@+id/signin_pwd_text"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/signin_later_button"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:background="#66FFFFFF"
+        android:text="Later"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/signin_button"
+        android:layout_alignLeft="@+id/signin_button"
+        android:layout_alignStart="@+id/signin_button"
+        android:layout_marginTop="10dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:id="@+id/signin_forgot_pwd"
+        android:layout_below="@+id/signin_pwd_text"
+        android:layout_alignRight="@+id/signin_pwd_text"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>
