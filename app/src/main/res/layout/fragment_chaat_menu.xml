@@ -30,7 +30,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_samosa"
+                android:id="@+id/menu_samosa_chat"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -44,7 +44,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout1"
+                    android:id="@+id/chaat_layout1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -60,7 +60,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Samosa(1 Piece)"
+                        android:text="Samosa Chat"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -70,20 +70,20 @@
 
 
                 <View
-                    android:id="@+id/view1"
+                    android:id="@+id/chaat_view1"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout1"
+                    android:layout_below="@+id/chaat_layout1"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout012"
+                    android:id="@+id/chaat_layout012"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view1"
+                    android:layout_below="@+id/chaat_view1"
                     android:orientation="horizontal">
 
 
@@ -92,12 +92,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 1.99"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_samosa"
+                        android:id="@+id/remove_samosachat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -106,19 +106,19 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_samosa"
+                        android:id="@+id/no_of_samosachat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="15dp"
-                        android:text="1"
+                        android:text="0"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
 
                     <ImageView
-                        android:id="@+id/add_samosa"
+                        android:id="@+id/add_samosachat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -134,7 +134,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_vada"
+                android:id="@+id/menu_samosa_ragada"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -148,7 +148,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout2"
+                    android:id="@+id/chaat_layout2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -164,7 +164,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Masala Vada(2 Pieces)"
+                        android:text="Samosa Ragada"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -174,20 +174,20 @@
 
 
                 <View
-                    android:id="@+id/view2"
+                    android:id="@+id/chaat_view2"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout2"
+                    android:layout_below="@+id/chaat_layout2"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout22"
+                    android:id="@+id/chaat_layout22"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view2"
+                    android:layout_below="@+id/chaat_view2"
                     android:orientation="horizontal">
 
 
@@ -196,12 +196,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 4.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_masala_vada"
+                        android:id="@+id/remove_samosaragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -210,19 +210,19 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_masala_vada"
+                        android:id="@+id/no_of_samosaragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="15dp"
-                        android:text="1"
+                        android:text="0"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
 
                     <ImageView
-                        android:id="@+id/add_masala_vada"
+                        android:id="@+id/add_samosaragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -238,7 +238,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_sambar_vada"
+                android:id="@+id/menu_papdichat"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -252,7 +252,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout3"
+                    android:id="@+id/chaat_layout3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -268,7 +268,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Sambar Vada(2 Pieces)"
+                        android:text="Papdi Chat"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -278,20 +278,20 @@
 
 
                 <View
-                    android:id="@+id/view3"
+                    android:id="@+id/chaat_view3"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout3"
+                    android:layout_below="@+id/chaat_layout3"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout32"
+                    android:id="@+id/chaat_layout32"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view3"
+                    android:layout_below="@+id/chaat_view3"
                     android:orientation="horizontal">
 
 
@@ -300,12 +300,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_sambar_vada"
+                        android:id="@+id/remove_papdichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -314,19 +314,19 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_sambar_vada"
+                        android:id="@+id/no_of_papdichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="15dp"
-                        android:text="1"
+                        android:text="0"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
 
                     <ImageView
-                        android:id="@+id/add_sambar_vada"
+                        android:id="@+id/add_papdichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -342,7 +342,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_idly"
+                android:id="@+id/menu_papdiragada"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -356,7 +356,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout4"
+                    android:id="@+id/chaat_layout4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -372,7 +372,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Idly(2 Pieces)"
+                        android:text="Papdi Ragada"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -382,20 +382,20 @@
 
 
                 <View
-                    android:id="@+id/view4"
+                    android:id="@+id/chaat_view4"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout4"
+                    android:layout_below="@+id/chaat_layout4"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout42"
+                    android:id="@+id/chaat_layout42"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view4"
+                    android:layout_below="@+id/chaat_view4"
                     android:orientation="horizontal">
 
 
@@ -404,12 +404,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_idly"
+                        android:id="@+id/remove_papdiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -418,7 +418,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_idly"
+                        android:id="@+id/no_of_papdiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -430,7 +430,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_idly"
+                        android:id="@+id/add_papdiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -446,7 +446,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_sambar_idly"
+                android:id="@+id/menu_bhelpoori"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -460,7 +460,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout5"
+                    android:id="@+id/chaat_layout5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -476,7 +476,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Sambar Idly(2 Pieces)"
+                        android:text="Bhel Poori"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -486,20 +486,20 @@
 
 
                 <View
-                    android:id="@+id/view5"
+                    android:id="@+id/chaat_view5"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout5"
+                    android:layout_below="@+id/chaat_layout5"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout52"
+                    android:id="@+id/chaat_layout52"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view5"
+                    android:layout_below="@+id/chaat_view5"
                     android:orientation="horizontal">
 
 
@@ -508,12 +508,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_sambar_idly"
+                        android:id="@+id/remove_bhelpoori"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -522,7 +522,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_sambar_idly"
+                        android:id="@+id/no_of_bhelpoori"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -534,7 +534,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_sambar_idly"
+                        android:id="@+id/add_bhelpoori"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -550,7 +550,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_gheepodi_idly"
+                android:id="@+id/menu_pavbhaji"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -564,7 +564,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout6"
+                    android:id="@+id/chaat_layout6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -580,7 +580,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Ghee Podi Idly(2 Pieces)"
+                        android:text="Pav Bhaji"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -590,20 +590,20 @@
 
 
                 <View
-                    android:id="@+id/view6"
+                    android:id="@+id/chaat_view6"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout6"
+                    android:layout_below="@+id/chaat_layout6"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout62"
+                    android:id="@+id/chaat_layout62"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view6"
+                    android:layout_below="@+id/chaat_view6"
                     android:orientation="horizontal">
 
 
@@ -612,12 +612,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_gheepodi_idly"
+                        android:id="@+id/remove_pavbhaji"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -626,7 +626,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_gheepodi_idly"
+                        android:id="@+id/no_of_pavbhaji"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -638,7 +638,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_gheepodi_idly"
+                        android:id="@+id/add_pavbhaji"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -654,7 +654,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_idlyvada"
+                android:id="@+id/menu_panipuri"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -668,7 +668,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout7"
+                    android:id="@+id/chaat_layout7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -684,7 +684,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Idly + Vada(1+1)"
+                        android:text="Pani Puri"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -694,20 +694,20 @@
 
 
                 <View
-                    android:id="@+id/view7"
+                    android:id="@+id/chaat_view7"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout7"
+                    android:layout_below="@+id/chaat_layout7"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout72"
+                    android:id="@+id/chaat_layout72"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view7"
+                    android:layout_below="@+id/chaat_view7"
                     android:orientation="horizontal">
 
 
@@ -716,12 +716,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 4.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_idlyvada"
+                        android:id="@+id/remove_panipuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -730,7 +730,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_idlyvada"
+                        android:id="@+id/no_of_panipuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -742,7 +742,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_idlyvada"
+                        android:id="@+id/add_panipuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -758,7 +758,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_sambaridlyvada"
+                android:id="@+id/menu_masalapuri"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -772,7 +772,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout8"
+                    android:id="@+id/chaat_layout8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -788,7 +788,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Sambar Idly + Vada(1+1)"
+                        android:text="Masala Puri"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -798,20 +798,20 @@
 
 
                 <View
-                    android:id="@+id/view8"
+                    android:id="@+id/chaat_view8"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout8"
+                    android:layout_below="@+id/chaat_layout8"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout82"
+                    android:id="@+id/chaat_layout82"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view8"
+                    android:layout_below="@+id/chaat_view8"
                     android:orientation="horizontal">
 
 
@@ -820,12 +820,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_sambaridlyvada"
+                        android:id="@+id/remove_masalapuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -834,7 +834,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_sambaridlyvada"
+                        android:id="@+id/no_of_masalapuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -846,7 +846,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_sambaridlyvada"
+                        android:id="@+id/add_masalapuri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -862,7 +862,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_mirchi1"
+                android:id="@+id/menu_alootikkichat"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -876,7 +876,7 @@
 
 
                 <LinearLayout
-                    android:id="@+id/layout9"
+                    android:id="@+id/chaat_layout9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -892,7 +892,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Mirchi(1 Piece)"
+                        android:text="Aloo Tikki Chat"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -902,20 +902,20 @@
 
 
                 <View
-                    android:id="@+id/view9"
+                    android:id="@+id/chaat_view9"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout9"
+                    android:layout_below="@+id/chaat_layout9"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout92"
+                    android:id="@+id/chaat_layout92"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view9"
+                    android:layout_below="@+id/chaat_view9"
                     android:orientation="horizontal">
 
 
@@ -924,12 +924,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 1.50"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_mirchi1"
+                        android:id="@+id/remove_alootikkichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -938,7 +938,7 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_mirchi1"
+                        android:id="@+id/no_of_alootikkichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -950,7 +950,7 @@
 
 
                     <ImageView
-                        android:id="@+id/add_mirchi1"
+                        android:id="@+id/add_alootikkichat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -966,7 +966,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/menu_mirchi4"
+                android:id="@+id/menu_alootikkiragada"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:layout_alignParentTop="true"
@@ -975,325 +975,13 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="10dp"
-                android:background="@color/white"
-                android:orientation="vertical">
-
-
-                <LinearLayout
-                    android:id="@+id/layout10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:src="@color/bar_grey" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="Mirchi(4 Pieces)"
-                        android:textColor="#444444"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-                <View
-                    android:id="@+id/view10"
-                    android:layout_width="328dp"
-                    android:layout_height="2dp"
-                    android:layout_below="@+id/layout10"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#ececec" />
-
-
-                <LinearLayout
-                    android:id="@+id/layout102"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_below="@+id/view10"
-                    android:orientation="horizontal">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-                    <ImageView
-                        android:id="@+id/remove_mirchi4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="200dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/remove_item" />
-
-                    <TextView
-                        android:id="@+id/no_of_mirchi4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:text="1"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-
-                    <ImageView
-                        android:id="@+id/add_mirchi4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/add_item" />
-
-
-                </LinearLayout>
-
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/menu_cutmirchi"
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="10dp"
-                android:background="@color/white"
-                android:orientation="vertical">
-
-
-                <LinearLayout
-                    android:id="@+id/layout11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:src="@color/bar_grey" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="Cut Mirchi(1 Piece)"
-                        android:textColor="#444444"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-                <View
-                    android:id="@+id/view11"
-                    android:layout_width="328dp"
-                    android:layout_height="2dp"
-                    android:layout_below="@+id/layout11"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#ececec" />
-
-
-                <LinearLayout
-                    android:id="@+id/layout112"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_below="@+id/view11"
-                    android:orientation="horizontal">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-                    <ImageView
-                        android:id="@+id/remove_cutmirchi"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="200dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/remove_item" />
-
-                    <TextView
-                        android:id="@+id/no_of_cutmirchi"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:text="1"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-
-                    <ImageView
-                        android:id="@+id/add_cutmirchi"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/add_item" />
-
-
-                </LinearLayout>
-
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/menu_poori"
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="10dp"
-                android:background="@color/white"
-                android:orientation="vertical">
-
-
-                <LinearLayout
-                    android:id="@+id/layout12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:src="@color/bar_grey" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="Poori(3 Pieces)"
-                        android:textColor="#444444"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-                <View
-                    android:id="@+id/view12"
-                    android:layout_width="328dp"
-                    android:layout_height="2dp"
-                    android:layout_below="@+id/layout12"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#ececec" />
-
-
-                <LinearLayout
-                    android:id="@+id/layout122"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_below="@+id/view12"
-                    android:orientation="horizontal">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-                    <ImageView
-                        android:id="@+id/remove_poori"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="200dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/remove_item" />
-
-                    <TextView
-                        android:id="@+id/no_of_poori"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:text="1"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
-
-
-                    <ImageView
-                        android:id="@+id/add_poori"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/add_item" />
-
-
-                </LinearLayout>
-
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/menu_tea"
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="10dp"
                 android:background="@color/white"
                 android:orientation="vertical">
 
 
                 <LinearLayout
-                    android:id="@+id/layout13"
+                    android:id="@+id/chaat_layout10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -1309,7 +997,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="Tea(Check Availability"
+                        android:text="Aloo Tikki Ragada"
                         android:textColor="#444444"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -1319,20 +1007,20 @@
 
 
                 <View
-                    android:id="@+id/view13"
+                    android:id="@+id/chaat_view10"
                     android:layout_width="328dp"
                     android:layout_height="2dp"
-                    android:layout_below="@+id/layout13"
+                    android:layout_below="@+id/chaat_layout10"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:background="#ececec" />
 
 
                 <LinearLayout
-                    android:id="@+id/layout132"
+                    android:id="@+id/chaat_layout102"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_below="@+id/view13"
+                    android:layout_below="@+id/chaat_view10"
                     android:orientation="horizontal">
 
 
@@ -1341,12 +1029,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="15dp"
-                        android:text="$ 5.00"
+                        android:text="$ 5.99"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/remove_tea"
+                        android:id="@+id/remove_alootikkiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="200dp"
@@ -1355,19 +1043,19 @@
                         android:src="@drawable/remove_item" />
 
                     <TextView
-                        android:id="@+id/no_of_tea"
+                        android:id="@+id/no_of_alootikkiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="15dp"
-                        android:text="1"
+                        android:text="0"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
 
                     <ImageView
-                        android:id="@+id/add_tea"
+                        android:id="@+id/add_alootikkiragada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -1380,6 +1068,9 @@
 
 
             </RelativeLayout>
+
+
+
 
 
         </LinearLayout>
