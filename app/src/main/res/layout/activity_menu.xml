@@ -7,184 +7,261 @@
     android:background="@drawable/background_white"
     tools:context="com.hermitcrabs.dosacorner.View.MenuActivity">
 
-   <include android:id="@+id/menu_appbar" layout="@layout/appbar_menu"/>
-
-
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:background="#0f000000"
-          android:layout_alignParentTop="true"
-          android:layout_alignParentLeft="true"
-          android:layout_alignParentStart="true"
-          android:orientation="vertical">
-
-
-         <LinearLayout
-             android:id="@+id/menu_samosa"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="70dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-         </LinearLayout>
-
-
-
-
-
-
-
-
-         <LinearLayout
-             android:id="@+id/menu_chaat"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-         </LinearLayout>
-
-
-
-
-
-
-         <LinearLayout
-             android:id="@+id/menu_dosa"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-
-
-         </LinearLayout>
-
-
-
-
-
-
-
-
-
-         <LinearLayout
-             android:id="@+id/menu_utthapam"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-
-
-         </LinearLayout>
-
-
-
-
-
-         <LinearLayout
-             android:id="@+id/menu_biryani"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-
-
-         </LinearLayout>
-
-
-         <LinearLayout
-             android:id="@+id/menu_indo_chinese"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-
-
-         </LinearLayout>
-
-
-
-         <LinearLayout
-             android:id="@+id/menu_desert"
-             android:layout_width="match_parent"
-             android:layout_height="100dp"
-             android:layout_alignParentTop="true"
-             android:layout_centerHorizontal="true"
-             android:layout_gravity="center"
-             android:layout_marginTop="4dp"
-             android:layout_marginLeft="5dp"
-             android:layout_marginRight="5dp"
-             android:layout_marginBottom="10dp"
-             android:background="@android:color/white"
-             android:orientation="vertical">
-
-
-
-
-
-         </LinearLayout>
-
-
-      </LinearLayout>
-   </ScrollView>
-
-
+    <include
+        android:id="@+id/menu_appbar"
+        layout="@layout/appbar_menu" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#0f000000"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/menu_snack"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="66dp"
+                android:background="@drawable/snacks"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="SNACK CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_chaat"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/chaat"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="CHAAT CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_dosa"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/dosa"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="DOSA CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_utthapam"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/uttapam"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="UTHAPPAM CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_biryani"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/biryani"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="BIRYANI CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_indo_chinese"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/indo_chinese"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="INDO-CHINESE CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/menu_desert"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/desserts"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="DESSERTS CORNER"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_biryani_deals"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/biryani_deal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="BIRYANI CORNER DEALS"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/menu_dosa_deals"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/dosa_deals"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="57dp"
+                    android:text="DOSA CORNER DEALS"
+                    android:textColor="#deffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>
