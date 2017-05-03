@@ -54,5 +54,16 @@
 
     </string-array>
     <string name="title_activity_menu">MenuActivity</string>
+    
+    
+    
+    <string name="kulfi_falooda">Kulfi Falooda</string>
+    <string name="mango_lassi">Mango Lassi</string>
+    <string name="jamun">Gulab Jamun</string>
+
+    <string name="rasmalai">Rasmalai</string>
+    <string name="soft_drink">Soft Drink</string>
+    <string name="water_bottle">Water Bottle</string>
+
 
 </resources>
