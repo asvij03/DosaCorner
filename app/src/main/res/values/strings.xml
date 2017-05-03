@@ -66,4 +66,24 @@
     <string name="water_bottle">Water Bottle</string>
 
 
+
+    <string name="jumbo">Jumbo</string>
+    <string name="chkn">Chicken-65/Fried Chicken Biryani</string>
+    <string name="family">Family</string>
+<string name="veg"> Veg/Chicken/Goat Biryani</string>
+    <string name="fish">Jumbo Fish Biryani</string>
+
+
+    <string name="masala_dosa">Masala Dosa + Idly + Vada + Can</string>
+
+    <string name="paneer_dosa">Paneer Dosa + Idly + Vada + Can</string>
+
+
+    <string name="chkn_dosa">Chicken Dosa + Idly + Vada + Can</string>
+
+
+    <string name="lamb_dosa">Lamb Dosa + Idly + Vada + Can</string>
+
+
+
 </resources>
