@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_white"
+    tools:context="com.hermitcrabs.dosacorner.View.MenuActivity">
+
+    <include
+        android:id="@+id/menu_appbar"
+        layout="@layout/appbar_menu" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0f000000"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/menu_vegdumbiryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="66dp"
+                android:background="@color/white"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Veg Dum Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view1"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout012"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view1"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 9.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_vegdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_vegdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_vegdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/menu_chkndumbiryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Chicken Dum Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view2"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout22"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view2"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 9.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_chkndumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_chkndumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_chkndumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/menu_goatdumbiryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Goat Dum Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view3"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout32"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view3"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 9.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_goatdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_goatdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_goatdumbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/menu_chkn65_biryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Chicken-65 Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view4"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout42"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view4"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 11.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_chkn65_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_chkn65_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_chkn65_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/menu_fishbiryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Fish Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view5"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout52"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view5"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 11.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_fishbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_fishbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_fishbiryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/menu_friedchkn_biryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Fried Chicken Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view6"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout62"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view6"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 11.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_friedchkn_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_friedchkn_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_friedchkn_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/menu_quail_biryani"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+            >
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@color/bar_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Quail Biryani"
+                        android:textColor="#444444"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/biryani_view7"
+                    android:layout_width="328dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/biryani_layout7"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#ececec" />
+
+
+                <LinearLayout
+                    android:id="@+id/biryani_layout72"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/biryani_view7"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="$ 14.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/remove_quail_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/remove_item" />
+
+                    <TextView
+                        android:id="@+id/no_of_quail_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/add_quail_biryani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/add_item" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
